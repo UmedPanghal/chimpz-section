@@ -1,0 +1,25 @@
+:root {
+    /* font-weight */
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-400: 400;
+    /* color  */
+    --color-white: #FFFFFF;
+    --color-green: #3b945e;
+    /* font-size */
+    --fs-16: 16px;
+    --fs-64px: 64px;
+}
+
+@media (max-width:992px) {
+    :root {
+        --fw-600: 500;
+        --fw-700: 600;
+        --fw-400: 300;
+    }
+
+    :root {
+        --fs-16: 14px;
+        --fs-64px: 57px;
+    }
+}
