@@ -6,7 +6,7 @@
     /* color  */
     --color-white: #FFFFFF;
     --color-green: #3b945e;
-    --color-white-gray:#bebfbf;
+    --color-white-gray: #bebfbf;
     /* font-size */
     --fs-16: 16px;
     --fs-64px: 64px;
@@ -17,9 +17,6 @@
         --fw-600: 500;
         --fw-700: 600;
         --fw-400: 300;
-    }
-
-    :root {
         --fs-16: 14px;
         --fs-64px: 57px;
     }

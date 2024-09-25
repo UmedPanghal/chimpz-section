@@ -6,16 +6,23 @@
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-   
+
 }
-.shadow-down-layer{
+
+.shadow-down-layer {
     bottom: 0;
     left: 0;
 }
-.uppper-layer{
+
+.uppper-layer {
     top: 0;
 }
+
 /* nav bar  */
+li {
+    list-style: none;
+}
+
 .nav-link-text {
     margin-left: auto;
     margin-right: 60px;
@@ -67,8 +74,6 @@
     color: #FFC20A !important;
     background-color: white !important;
 }
-
-
 
 /* flex-direction-column  */
 .flex-direction-column {
@@ -174,6 +179,11 @@
 
 .text-green {
     text-shadow: 2px 2px 8px #ffffff;
+}
+
+.bg-blur-layer {
+    backdrop-filter: blur(5px);
+    background-position: center;
 }
 
 @media (max-width:991.98px) {
