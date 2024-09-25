@@ -47,6 +47,11 @@
     padding: 14px 32px;
 }
 
+.btn:hover {
+    color: #FFC20A !important;
+    background-color: white !important;
+}
+
 ul {
     padding-left: 0px !important;
 }
